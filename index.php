@@ -1,6 +1,5 @@
 
 ﻿<!DOCTYPE html>
-<!--TheFreeElectron 2015, http://www.instructables.com/member/TheFreeElectron/ -->
 
 <html>
     <head>
@@ -95,7 +94,7 @@ if(isset($_GET['led8'])) {
                 exec("gpio write 7 0");
         }
 }
-$url1=$_SERVER['http://192.168.1.6/'];
+$url1=$_SERVER['http://192.168.1.5/'];
 header("Refresh: 5; URL=$url1");
 	?>
 	 
